@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /c/apps/apache/httpd/apache24/bin
+./httpd
