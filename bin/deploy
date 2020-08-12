@@ -1,5 +1,9 @@
 #!/bin/bash
+
+HTDOCS=/c/apps/apache/httpd/apache24/myhtdocs
+
 pushd .
 cd ..
-cp -a css scss js img html/* /c/apps/apache/httpd/apache24/myhtdocs
+rm -rf $HTDOCS/*
+cp -a css scss js img *.html common templates $HTDOCS
 popd
