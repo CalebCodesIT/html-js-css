@@ -1,0 +1,5 @@
+#!/bin/bash
+pushd .
+cd ..
+cp -a css scss js img html/* /c/apps/apache/httpd/apache24/myhtdocs
+popd

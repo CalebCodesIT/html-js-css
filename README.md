@@ -1,2 +1,7 @@
 # html-js-css
-Website: HTML, CSS, Javascript
+A simple website to experiment with raw:
+* HTML
+* CSS
+* JavaScript
+
+---
